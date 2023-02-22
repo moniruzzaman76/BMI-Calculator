@@ -1,22 +1,21 @@
-const String Category = 'BMI (kg/m2)';
-const String Underweight = 'Underweight (Severe thinness)';
-const String UnderweightModerate = 'Underweight (Moderate thinness)';
-const String UnderweightMild = 'Underweight (Mild thinness)';
-const String Normal = 'Normal range';
-const String OverweighPreobese = 'Overweight (Pre-obese)';
-const String ObeseClass1 = 'Obese (Class I)';
-const String ObeseClass2 = 'Obese (Class II)';
-const String ObeseClass3 = 'Obese (Class III)';
+String categories = 'BMI (kg/m2)';
+String underWeight = 'UnderWeight(Severe thinness)';
+String underWeightModerate = 'UnderWeight(Moderate thinness)';
+String underWeightMild = 'UnderWeight(Mild thinness)';
+String normalRange = 'Normal Range';
+String overWeightPreObese = 'OverWeight(Pre Obese)';
+String obeseClass1 = 'Obese(Class I)';
+String obeseClass2 = 'Obese(Class II)';
+String obeseClass3 = 'Obese(Class III)';
 
-
-const bimMap = <String, String>{
-  Category: 'BMI (kg/m2)',
-  Underweight: '< 16.0',
-  UnderweightModerate: '16.0 – 16.9',
-  UnderweightMild: '17.0 – 18.4',
-  Normal: '18.5 – 24.9	',
-  OverweighPreobese: '25.0 – 29.9',
-  ObeseClass1: '30.0 – 34.9',
-  ObeseClass2: '35.0 – 39.9',
-  ObeseClass3: '≥ 40.0',
+var bmiMap = <String, String>{
+ categories : 'BMI (kg/m2)',
+ underWeight: '< 16.0',
+ underWeightModerate: '16-16.9',
+ underWeightMild: '17.0-18.4',
+ normalRange: '18.5-24.9',
+ overWeightPreObese: '25.0 - 29.9',
+ obeseClass1: '30.0 - 34.9',
+ obeseClass2: '35.0 - 39.9',
+ obeseClass3: '>40',
 };

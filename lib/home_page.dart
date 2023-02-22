@@ -84,8 +84,7 @@ class _HomePageState extends State<HomePage> {
                     )),
               ],
             ),
-          ),/// 1st Step complete
-
+          ),/// 1st Step
 
           Expanded(
               flex: 10,
@@ -95,14 +94,15 @@ class _HomePageState extends State<HomePage> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                     const Text('Height',style: TextStyle(fontSize: 30,color: Colors.white),),
-                   const SizedBox(height: 10,),
+                    const Text('Height',style: TextStyle(fontSize: 30,color: Colors.white),),
+                    const SizedBox(height: 10,),
                    Row(
                      mainAxisAlignment: MainAxisAlignment.center,
+                     crossAxisAlignment: CrossAxisAlignment.baseline,
                      textBaseline: TextBaseline.alphabetic,
                      children: [
                        Text('$height',style: const TextStyle(fontSize: 30,color: Colors.white),),
-                       const SizedBox(width:7,),
+                       const SizedBox(width:6,),
                        const Text('CM',style: TextStyle(fontSize: 12,color: Colors.white),)
                      ],
                    ),
@@ -120,7 +120,7 @@ class _HomePageState extends State<HomePage> {
                         }),
                   ],
                 ),
-              )),/// 2nd
+              )),/// 2nd Step
 
           Expanded(
               flex: 10,
@@ -207,11 +207,15 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ],
                 ),
-              )),/// 3rd
+              )),/// 3rd step
+
           SizedBox(
             width: double.infinity,
             height: 55,
             child: ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.pink
+              ),
                 onPressed: (){
                   double h  = height/100;
                   double heightSquare = h*h ;
@@ -232,4 +236,5 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+
 
