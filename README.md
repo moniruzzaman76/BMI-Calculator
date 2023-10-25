@@ -1,6 +1,10 @@
 # bmi_calculator
 
-A new Flutter project.
+This Project User Can use for Android, ios, Web and Mac.
+
+![img.png](img.png)
+![img_1.png](img_1.png)
+
 
 ## Getting Started
 

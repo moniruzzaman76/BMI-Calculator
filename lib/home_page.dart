@@ -45,9 +45,9 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Card(
                         color: isMale == true ? Colors.teal : cardColor,
-                        child: Column(
+                        child: const Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
+                          children: [
                             Icon(
                               Icons.male,
                               color: Colors.white,
@@ -68,9 +68,9 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Card(
                         color: isMale == false ? Colors.teal : cardColor,
-                        child: Column(
+                        child: const Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
+                          children: [
                             Icon(
                               Icons.female,
                               size: 50,
