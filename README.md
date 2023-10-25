@@ -1,6 +1,6 @@
 # bmi_calculator
 
-This Project User Can use for Android, ios, Web and Mac.
+This Project User Can use to Android, ios, Web and Mac.
 
 ![img_2.png](img_2.png)
 
